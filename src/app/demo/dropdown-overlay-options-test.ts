@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-
+interface City {
+    name: string;
+    code: string;
+}
 @Component({
     selector: 'dropdown-overlay-options-test',
     templateUrl: './dropdown-overlay-options-test.html'
